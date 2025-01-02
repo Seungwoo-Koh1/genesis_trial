@@ -35,5 +35,7 @@ pip install genesis-world  # Requires Python >=3.9;
 For the latest version, clone the repository and install locally:
 
 git clone https://github.com/Genesis-Embodied-AI/Genesis.git
+
 cd Genesis
+
 pip install -e .
