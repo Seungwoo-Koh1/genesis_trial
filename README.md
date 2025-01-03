@@ -11,10 +11,10 @@ ubuntu:
 24.04
 
 Driver:
-550.120
+560.35.03 
 
 Cuda:
-12.4
+12.6
 
 docker:
 Docker version 27.4.1, build b9d17ea
