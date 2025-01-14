@@ -25,7 +25,7 @@ plane = scene.add_entity(
 
 arx5 = scene.add_entity(
     gs.morphs.URDF(
-        file='/home/rail/aloha_sim/aloha_isaac_sim/urdf/arx5_description_isaac.urdf',
+        file='/home/rail/aloha_sim/aloha_isaac_sim/urdf/arx5_description_isaac_wheeloper.urdf',
         fixed=True,
     ),
 )
