@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<robot name="Cube">
+  <link name="Cube__link">
+    <!-- Inertial properties -->
+    <inertial>
+      <mass value="0.1"/>  <!-- 100g -->
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia
+        ixx="10.00004" ixy="0" ixz="0"
+        iyy="10.00004" iyz="0"
+        izz="10.00004"/>
+    </inertial>
+    
+    <!-- Visual properties -->
+    <visual name="Cube__visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.04 0.04 0.04"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    
+    <!-- Collision properties -->
+    <collision name="Cube__collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.04 0.04 0.04"/>
+      </geometry>
+      <!-- Contact properties -->
+      <contact>
+        <lateral_friction value="0"/>
+        <rolling_friction value="0"/>
+        <spinning_friction value="0"/>
+      </contact>
+    </collision>
+  </link>
+</robot>
